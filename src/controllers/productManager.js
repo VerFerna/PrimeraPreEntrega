@@ -1,7 +1,7 @@
 import fs from "fs";
 
 class ProductManager {
-  static #path = "./models/products.json";
+  static #path = "./src/models/products.json";
   constructor() {
     this.products = [];
     ProductManager.#path;

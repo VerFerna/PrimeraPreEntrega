@@ -3,7 +3,6 @@ import router from "./routes/index.js";
 import handlebars from "express-handlebars";
 
 const app = express();
-
 const PORT = 8080;
 
 //Postman
